@@ -1,0 +1,460 @@
+.timeline1{
+    position: relative;
+    height: 60vh;
+    width: 320px;
+    background-image: url(img1/intro2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-y: hidden;
+}
+.main-timeline-title>p{
+    position: relative;
+    color: #fff;
+    top: 10px;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.main-timeline-title>span{
+    position: relative;
+    top: 10px;
+    display: block;
+    width: 240px;
+    left: 50px;
+    color: #fff;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 12px;
+}
+.main-timeline-title>img{
+    position: relative;
+    top: 1px;
+    left: -70px;
+    width: 10px;
+    height: 10px;
+}
+.timeline-item{
+    position: relative;
+    font-family: 'Montserrat';
+}
+.timeline-item>p{
+    position: relative;
+    left: 50px;
+    color: #fff;
+    width: 240px;
+    text-align: left;
+    font-size: 12px;
+}
+.timeline-item>span,
+.date{
+    position: relative;
+  display: block;
+  color: #d434fe;
+  text-align: left;
+  width: 250px;
+  left: 48px;
+  font-size: 10px;
+}
+.empty{
+    position: absolute;
+    background: #d434fe;
+    width: 2px;
+    height: 70px;
+    left: 30px;
+}
+.number{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    left: 23px;
+    top: 75px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #fe34b9, #903aff);
+    color: #fff;
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six{
+    margin-top: 10px;
+}
+.one>.number{
+    top: 98px;
+}
+.one>.empty{
+    top: 20px;
+}
+.one>.date{
+    top: 10px;
+}
+.two>p,.two>span,.two>.date{
+    top: -16px;
+}
+.two>.empty{
+    height: 67px;
+    top: 5px;
+}
+.three>.empty{
+    height: 45px;
+    top: 5px;
+}
+.three>.number{
+    top: 55px;
+}
+.three>span,.three>.date{
+    top: -16px;
+}
+.three>p{
+    top: -10px;
+}
+.three>.date{
+    top: 0px;
+}
+.four>p,.four>span,.four>.date{
+    top: -10px;
+}
+.four>.empty{
+    top: 10px;
+    height: 76px;
+}
+.four>.number{
+    top: 90px;
+}
+.five>p,.five>span,.five>.date{
+    top: -12px;
+}
+.six>p,.six>span,.six>.date{
+    top: -12px;
+}
+.six>.empty{
+    height: 65px;
+    top: 7px;
+}
+
+@media (min-width:641px) and (max-width:1007px){
+.timeline1{
+    position: relative;
+    top: 515px;
+    height: 120vh;
+    width: 640px;
+}
+.main-timeline-title>p{
+    font-size: 24px;
+}
+.main-timeline-title>span{
+    width: 440px;
+    left: 80px;
+    font-size: 20px;
+}
+.main-timeline-title>img{
+    position: relative;
+    top: -40px;
+    left: -230px;
+    width: 15px;
+    height: 15px;
+}
+.timeline-item{
+    position: relative;
+    font-family: 'Montserrat';
+}
+.timeline-item>p{
+    position: relative;
+    left: 100px;
+    color: #fff;
+    width: 440px;
+    text-align: left;
+    font-size: 14px;
+}
+.timeline-item>span,
+.date{
+  width: 450px;
+  left: 100px;
+  font-size: 12px;
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six{
+    margin-top: 10px;
+}
+.one>.number{
+    top: 78px;
+    left: 77px;
+}
+.one>.empty{
+    top: 20px;
+    height: 54px;
+    left: 82px;
+}
+.one>.date{
+    top: 10px;
+}
+.two>p,.two>span,.two>.date{
+    top: -10px;
+}
+.two>.empty{
+    height: 57px;
+    top: 15px;
+    left: 82px;
+}
+.two>.number,
+.three>.number{
+    left: 77px;
+}
+.three{
+    height: 70px;
+}
+.three>.empty{
+    height: 45px;
+    top: 5px;
+    left: 82px;
+}
+.three>.date{
+    top: 0px;
+}
+.four>.empty{
+    top: 10px;
+    height: 44px;
+    left: 80px;
+}
+.four>.number{
+    top: 57px;
+    left: 75px;
+}
+.five>.empty{
+    top: 8px;
+    height: 46px;
+    left: 80px;
+}
+.five>.number{
+    top: 57px;
+    left: 75px;
+}
+.six>.empty{
+    top: 8px;
+    height: 61px;
+    left: 80px;
+}
+.six>.number{
+    top: 73px;
+    left: 75px;
+}
+}
+@media screen and (min-width:1007px){
+    .timeline1{
+        height: 150vh;
+        width: 1055px;
+        top: 0px;
+    }
+    .main-timeline-title>p{
+        top: 10px;
+        font-size: 22px;
+    }
+    .main-timeline-title>span{
+        top: 10px;
+        width: 280px;
+        left: 380px;
+        font-size: 12px;
+    }
+    .main-timeline-title>img{
+        position: relative;
+        top: 1px;
+        left: -400px;
+        width: 10px;
+        height: 10px;
+    }
+    .timeline-item>p{
+        left: 50px;
+        width: 440px;
+        text-align: left;
+        font-size: 12px;
+    }
+    .timeline-item>span,
+    .date{
+      width: 250px;
+      left: 48px;
+      font-size: 16px;
+    }
+    .empty{
+        width: 4px;
+        height: 80px;
+        left: 30px;
+    }
+    .number{
+        position: relative;
+        display: flex;
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        left: 29px;
+        top: 75px;
+    }
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six{
+        margin-top: 10px;
+    }
+    .one{
+        height: 140px;
+    }
+    .one>p{
+        left: 50px;
+        text-align: right; 
+        top: 60px;
+    }
+    .one>span{
+       left: 240px;
+       text-align: right;
+       top: 55px;
+    }
+    .one>.number{
+        top: 105px;
+        left: 512px;
+    }
+    .one>.empty{
+       left: 527px;
+    }
+    .one>.date{
+        top: 25px;
+        left: 600px;
+    }
+    .two{
+        top: -5px;
+        height: 107px;
+    }
+    .two>p{
+        top: 25px;
+        left: 600px;
+    }
+    .two>span{
+        top: 22px;
+        left: 600px;
+    }
+    .two>.number{
+        top: 62px;
+        left: 513px;
+    }
+    .two>.date{
+       left: 325px;
+    }
+    .two>.empty{
+        height: 72px;
+        top: -12px;
+        left: 527px;
+    }
+    .three{
+        top: 0px;
+        height: 90px;
+    }
+    .three>.empty{
+        height: 65px;
+        top: -15px;
+        left: 527px;
+    }
+    .three>.number{
+        top: 55px;
+        left: 513px;
+    }
+    .three>span{
+        top: 16px;
+        left: 240px;
+        text-align: right;
+    }
+    .three>p{
+        left: 50px;
+        text-align: right; 
+        top: 20px;
+    }
+    .three>.date{
+        left: 600px;
+        top: -16px;
+    }
+    .four{
+        height: 145px;
+        top: -10px;
+    }
+    .four>p{
+        top: 35px;
+        left: 600px;
+    }
+    .four>span{
+        top: 30px;
+        left: 600px;
+    }
+    .four>.empty{
+        top: 10px;
+        height: 76px;
+        left: 527px;
+    }
+    .four>.number{
+        top: 90px;
+        left: 513px;
+    }
+    .four>.date{
+        text-align: right;
+        left: 230px;
+    }
+    .five{
+        height: 165px;
+        top: -45px;
+    }
+    .five>span{
+        top: 30px;
+        left: 240px;
+        text-align: right;
+    }
+    .five>p{
+        left: 50px;
+        text-align: right; 
+        top: 35px;
+    }
+    .five>.date{
+        left: 600px;
+        top: -16px;
+    }
+    .five>.empty{
+        top: 10px;
+        height: 76px;
+        left: 527px;
+    }
+    .five>.number{
+        top: 90px;
+        left: 513px;
+    }
+    .six{
+        height: 165px;
+        top: -100px;
+    }
+    .six>p{
+        top: 55px;
+        left: 600px;
+    }
+    .six>span{
+        top: 50px;
+        left: 600px;
+    }
+    .six>.empty{
+        top: 10px;
+        height: 76px;
+        left: 527px;
+    }
+    .six>.number{
+        top: 90px;
+        left: 513px;
+    }
+    .six>.date{
+        text-align: right;
+        left: 230px;
+    }
+    
+}

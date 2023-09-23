@@ -1,0 +1,152 @@
+.nav{
+    display: flex;
+    height: 50px;
+    width: 320px;
+    border-bottom: 1px solid rgb(165, 93, 199);
+    background: #1c1236;
+    overflow-y: hidden;
+}
+.logo{
+    position:absolute;
+    top: 20px;
+    width: 15px;
+    height: 12px;
+    left: 250px;
+}
+.name{
+    position: relative;
+    left: 15px;
+    height: 30px;
+    font-size: 12px;
+    top: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Clash Display', sans-serif;
+}
+.name>span{
+    color: #d434fe;
+}
+.dropdown{
+    position: absolute;
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    left: 65px;
+    background: #1c1236;
+    border: 1px solid #1c1236;
+    color: #fff;
+    z-index: 1;
+}
+.close{
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.close-inner>p{
+    position: relative;
+    margin: 10px;
+    top: 40px;
+    left: 20px;
+    text-align: left;
+}
+.close-inner>button{
+    position: relative;
+    top: 50px;
+    left: -45px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    background: linear-gradient(to right, #fe34b9, #903aff);
+}
+.nav-item{
+    display: none;
+}
+@media only screen and (min-width: 641px){
+/* @media (min-width:641px) and (max-width:1007px){ */
+    .nav{
+        width: 643px;
+    }
+    .logo{
+        left: 550px;
+    }
+    .name{
+        left: 45px;
+    }
+    .dropdown{
+        width: 350px;
+        height: 350px;
+        left: 288px;
+    }
+    .close{
+        width: 20px;
+        height: 20px;
+    }
+    .close-inner>p{
+        margin: 20px;
+    }
+    .close-inner>button{
+        left: -85px;
+       }    
+    .nav-item{
+        display: none;
+    }
+}
+@media only screen and (min-width:1055px){
+    .nav{
+        display: flex;
+        height: 50px;
+        width: 1055px;
+        margin: 0;
+        border-bottom: 1px solid rgb(165, 93, 199);
+        background: #1c1236;
+    }
+    .name{
+        position: relative;
+        left: 15px;
+        height: 30px;
+        font-size: 12px;
+        top: 20px;
+        color: #fff;
+        font-weight: 700;
+        font-family: 'Clash Display', sans-serif;
+    }
+    .name>span{
+        color: #d434fe;
+    }
+    .nav-item{
+        position: absolute;
+        display: flex;
+        height: 50px;
+        color: #fff;
+        left: 250px;
+    }
+    .timeline,
+    .overview,
+    .faq,
+    .contact{
+        position: relative;
+        top: 15px;
+        height: 30px;
+        margin-right: 50px;
+        font-size: 13px;
+    }
+    .nav-item>button{
+        position: relative;
+        top: 5px;
+        width: 100px;
+        height: 35px;
+        margin-left: 50px;
+        background: linear-gradient(to right, #fe34b9, #903aff);
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        font-size: 12px;
+    }
+    .logo{
+        display: none;
+    }
+    .dropdown{
+        display: none;
+    }
+}

@@ -1,0 +1,173 @@
+.intro2{
+    height: 50vh;
+    width: 320px;
+    background-image: url(img1/intro2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.idea{
+    position: relative;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+}
+.star{
+    position: absolute;
+    top: 780px;
+    width: 10px;
+    height: 10px;
+}
+.arrow{
+    position: relative;
+    top: 50px;
+    left: -120px;
+}
+.intro2-title{
+    display: flex;
+}
+.intro2-text{
+    color: #fff;
+    position: relative;
+    width: 249px;
+    height: 54px;
+    left: 35px;
+    font-size: 20px;
+    font-weight: 600;
+    top: 60px;
+    font-family: 'Clash Display', sans-serif;
+}
+.intro2-text>span{
+    color: #d434fe;
+}
+.intro2-title>img{
+    position: relative;
+    top: 75px;
+    width: 10px;
+    left: 45px;
+    height: 10px;
+}
+.intro2-main-text{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    left: 30px;
+    width: 260px;
+    height: 307px;
+    line-height: 27.5px;
+    top: 60px;
+}
+@media (min-width:641px) and (max-width:1007px){
+    .intro2{
+        position: relative;
+        height: 120vh;
+        width: 642px;
+        top: 1030px;
+    }
+    .idea{
+        position: relative;
+        top: 40px;
+        width: 230px;
+        height: 230px;
+    }
+    .star{
+        position: absolute;
+        top: 80px;
+        width: 20px;
+        height: 20px;
+        left: 180px;
+    }
+    .arrow{
+        position: relative;
+        top: 100px;
+        left: -120px;
+        width: 50px;
+        height: 50px;
+    }
+    .intro2-title{
+        position: relative;
+       left: 70px;
+    }
+    .intro2-text{
+        width: 409px;
+        height: 54px;
+        left: 35px;
+        font-size: 30px;
+    }
+    .intro2-title>img{
+        top: 85px;
+        width: 20px;
+        height: 20px;
+    }
+    .intro2-main-text{
+        text-align: center;
+        left: 120px;
+        width: 360px;
+        height: 307px;
+        line-height: 27.5px;
+        top: 100px;
+    }
+}
+@media screen and (min-width:1007px){
+    .intro2{
+        display: flex;
+        height: 100vh;
+        width: 1055px;
+        background-image: url(img1/intro2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .idea{
+        position: relative;
+        left: 100px;
+        top: 70px;
+        width: 410px;
+        height: 357px;
+    }
+    .star{
+        position: absolute;
+        top: 830px;
+        width: 30px;
+        height: 30px;
+        left: 70px;
+    }
+    .arrow{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        top: 420px;
+        left: 120px;
+    }
+    .intro2-title{
+        position: relative;
+        display: flex;
+        width: 750px;
+        left: 180px;
+    }
+    .intro2-text{
+        width: 350px;
+        height: 86px;
+        text-align: left;
+        left: 55px;
+        font-size: 25px;
+        top: 160px;
+        font-family: 'Clash Display', sans-serif;
+    }
+    .intro2-title>img{
+        position: relative;
+        top: 185px;
+        width: 40px;
+        left: 155px;
+        height: 30px;
+    }
+    .intro2-main-text{
+        text-align: left;
+        left: -205px;
+        width: 565px;
+        height: 165px;
+        line-height: 25.5px;
+        font-size: 12px;
+        top: 220px;
+    }
+}

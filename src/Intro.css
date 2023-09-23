@@ -1,0 +1,251 @@
+.intro{
+    height: 50vh;
+    width: 320px;
+    background-image: url(img1/1.11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.head{
+    position: relative;
+    top: 30px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+.arc{
+    position: relative;
+    top: 30px;
+    left: 90px;
+    width: 100px;
+}
+.title{
+    position: relative;
+    top: 75px;
+    left: 30px;
+    width: 250px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Clash Display', sans-serif;
+}
+.title>span{
+    color: #d434fe;
+}
+.chain, .fire{
+    width: 18px;
+    height: 18px;
+}
+.creative{
+    position: relative;
+    width: 12px;
+    top: 85px;
+    left: 15px;
+}
+.title-text{
+    position: relative;
+    top: 90px;
+    color: #fff;
+    line-height: 15px;
+    left: 60px;
+    width: 180px;
+    font-size: 10px;
+}
+.timer{
+    display: flex;
+    color: #fff;
+    height: 150px;
+}
+.intro>button{
+    position: relative;
+    top: 100px;
+    height: 30px;
+    width: 90px;
+    left: -10px;
+    font-size: 9px;
+    color: #fff;
+    background: linear-gradient(to right, #fe34b9, #903aff);
+    border: none;
+    border-radius: 3px;
+}
+.timer{
+    display: flex;
+    position: relative;
+    top: 115px;
+    left: 80px;
+    font-size: 30px; 
+    font-family: 'Unica one';   
+}
+.timer>span{
+    position: relative;
+    margin-right: 20px;
+    font-size: 10px;
+    top: 18px;
+}
+@media (min-width:641px) and (max-width:1007px){
+    .intro{
+        position: absolute;
+        /* top: -70.5px;  */
+        height: 80vh;
+        width: 642px;
+        background-image: url(img1/1.11.png);
+        background-size: 640px 80vh;
+    }
+    .head{
+        top: 80px;
+        left: 80px;
+        font-family: 'Montserrat';
+        font-size: 20px;
+    }
+    .arc{
+        top: 60px;
+        left: 200px;
+        width: 140px;
+    }
+    .title{
+        top: 145px;
+        left: 100px;
+        width: 420px;
+        height: 150px;
+        font-size: 43px;
+    }
+    .chain, .fire{
+        width: 32px;
+        height: 32px;
+    }
+    .fire{
+        position: absolute;
+        left: 370px;
+        top: 62px;
+        width: 40px;
+        height: 40px;
+    }
+    .creative{
+        width: 32px;
+        top: 150px;
+        left: 50px;
+    }
+    .title-text{
+        position: relative;
+        top: 120px;
+        color: #fff;
+        line-height: 15px;
+        left: 152px;
+        width: 350px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.5rem;
+    }
+    .intro>button{
+        position: relative;
+        top: 140px;
+        height: 30px;
+        width: 90px;
+        left: 10px;
+        font-size: 9px;
+        color: #fff;
+        background: linear-gradient(to right, #fe34b9, #903aff);
+        border: none;
+        border-radius: 3px;
+    }
+    .timer{
+        display: flex;
+        position: relative;
+        top: 175px;
+        padding: 20px;
+        left: 220px;
+        width: 270px;
+        margin: 10px;
+        height: 60px;
+        font-size: 45px; 
+        font-family: 'Unica one';   
+    }
+    .timer>span{
+        position: relative;
+        margin-right: 20px;
+        font-size: 16px;
+        top: 25px;
+    }
+}
+@media screen and (min-width:1007px){
+    .intro{
+        height: 100vh;
+        width: 1055px;
+        background-image: url(img1/10.4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .head{
+        margin: 0px;
+        width: 800px;
+        left: 300px;
+        padding: 0;
+        top: 10px;
+        font-size: 30px;
+    }
+    .arc{
+        position: relative;
+        top: -20px;
+        left: 340px;
+        width: 250px;
+    }
+    .title{
+        position: relative;
+        top: 69px;
+        left: 70px;
+        text-align: left;
+        width: 640px;
+        height: 100px;
+        line-height: 0.5rem;
+        font-size: 55px;
+        font-weight: 600;
+        color: #fff;
+        font-family: 'Clash Display', sans-serif;
+    }
+    .title>span{
+        color: #d434fe;
+    }
+    .chain, .fire{
+        width: 70px;
+        height: 70px;
+    }
+    .creative{
+        position: relative;
+        width: 42px;
+        top: 55px;
+        left: -219px;
+    }
+    .title-text{
+        top: 100px;
+        line-height: 15px;
+        left: 70px;
+        width: 420px;
+        font-size: 20px;
+        text-align: left;
+        line-height: 1.5rem;
+    }
+    .intro>button{
+        position: relative;
+        top: 130px;
+        height: 40px;
+        width: 110px;
+        left: -400px;
+        font-size: 12px;
+    }
+    .timer{
+        display: flex;
+        position: relative;
+        top: 165px;
+        color: #fff;
+        left: 70px;
+        font-size: 40px; 
+        font-family: 'Unica one';   
+    }
+    .timer>span{
+        position: relative;
+        margin-right: 20px;
+        font-size: 14px;
+        top: 26px;
+    }
+}
